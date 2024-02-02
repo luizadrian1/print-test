@@ -28,7 +28,7 @@ app.get('/screenshot', async (req, res) => {
 });
 
 async function takeScreenshot(url, width = 423, height = 866) {
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] }); // Adiciona a opção --no-sandbox
   const page = await browser.newPage();
 
   try {
