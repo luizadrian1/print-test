@@ -1,15 +1,19 @@
 {
   "name": "screenshot-app",
   "version": "1.0.0",
-  "main": "app.js",  
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js"  
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "puppeteer": "^15.2.0"  
+    "puppeteer": "^15.2.0"
   },
   "engines": {
     "node": ">=14.0.0"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
